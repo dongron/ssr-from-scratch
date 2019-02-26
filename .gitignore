@@ -1,1 +1,9 @@
+# system
+.DS_Store
+
+# app
 node_modules
+
+# IDEs and editors
+.idea
+.eslintrc.js
