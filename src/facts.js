@@ -1,6 +1,18 @@
-import fetch from 'isomorphic-fetch';
+import fetch from "isomorphic-fetch";
 
-export default function getFacts() {
-    return fetch('https://ssr-react.firebase.com/facts.json')
-        .then(response => response.json());
+export default async function getFacts() {
+  return [
+    {
+      text: "start"
+    },
+    {
+      text: "some"
+    },
+    {
+      text: "new"
+    },
+    {
+      text: "task"
+    }
+  ];
 }
