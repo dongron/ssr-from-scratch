@@ -6,20 +6,22 @@
     "keywords": [],
     "author": "Dominik G",
     "license": "MIT",
+    "scripts": {
+        "webpack": "node_modules/.bin/webpack"
+    },
     "dependencies": {
         "isomorphic-fetch": "^2.2.1",
         "react": "^16.8.3",
         "react-dom": "^16.8.3"
     },
     "devDependencies": {
-        "babel": "^6.23.0",
+        "@babel/core": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-react": "^7.0.0",
         "babel-cli": "^6.26.0",
-        "babel-core": "^6.26.3",
         "babel-eslint": "^10.0.1",
         "babel-loader": "^8.0.5",
         "babel-polyfill": "^6.26.0",
-        "babel-preset-es2015": "^6.24.1",
-        "babel-preset-react": "^6.24.1",
         "eslint": "^5.14.1",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-config-airbnb-base": "^13.1.0",
@@ -29,6 +31,7 @@
         "firebase-admin": "^7.0.0",
         "firebase-functions": "^2.2.0",
         "firebase-tools": "^6.4.0",
-        "webpack": "^4.29.5"
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3"
     }
 }
